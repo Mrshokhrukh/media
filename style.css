@@ -43,7 +43,6 @@ body {
 /* max-hight: -->  katta heightdan kichrayganda (bo'yi kichiklashtirilganda) */
 /* min-hight: -->  kichik heightdan kattalashtirilganda (bo'yi kattalashtirilganda) */
 
-
 @media (max-width: 1200px) {
   .home_right .img img {
     width: 450px;
@@ -85,5 +84,9 @@ body {
   }
   .home_left {
     text-align: center;
+  }
+
+  .home_right .img img {
+    width: 100%;
   }
 }
